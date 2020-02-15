@@ -22,6 +22,9 @@
     width: 48%;
     display: inline-block;
     vertical-align: top;
+    @media (max-width: $ponto-de-quebra) {
+      width: auto;
+    }
   }
   
   .post-destaque {

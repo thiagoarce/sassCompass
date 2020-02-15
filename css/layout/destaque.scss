@@ -6,24 +6,29 @@
     color: white;
     height: 330px;
     padding-top: 10em;
-  }
-  
-  .destaque p {
+
+    @media (max-width: $ponto-de-quebra) {
+        font-size: 14px;
+        height: 250px;
+        width: auto
+      }
+
+   p {
     width: 30em;
+
+    &:first-child {
+      width: 30em;
+      font-size: 1.3em;
+      line-height: 1.1;
+
+      &:first-line {
+        font-size: 2.2em;
+        font-weight: bold;
+      }
+    }
   }
-  
-  .destaque p:first-child {
-    width: 30em;
-    font-size: 1.3em;
-    line-height: 1.1;
-  }
-  
-  .destaque p:first-child:first-line {
-    font-size: 2.2em;
-    font-weight: bold;
-  }
-  
-  .destaque button {
+
+  button {
     margin-top: 1em;
     background: $cor-padrao;
     border: 0;
@@ -33,3 +38,4 @@
     @extend %sombra-padrao;
     font-weight: bold;
   }
+}
