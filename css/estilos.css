@@ -616,7 +616,7 @@ header .container {
 
 .plano {
   background: white;
-  width: 18em;
+  width: 288px;
   display: inline-block;
   margin: 1em 0 0 1.4em;
   padding-bottom: 2em;
@@ -679,7 +679,8 @@ header .container {
   background-position: 0 -23px;
 }
 
-.sprite-icone-check, .sprite-icone-x {
+.sprite-icone-check,
+.sprite-icone-x {
   width: 18px;
   height: 18px;
 }
@@ -805,8 +806,8 @@ footer::before {
 }
 
 footer .container {
-  padding-top: 3em;
-  height: 6.5em;
+  padding-top: 48px;
+  height: 104px;
   position: relative;
 }
 

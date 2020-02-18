@@ -15,4 +15,6 @@
     background-repeat: no-repeat;
   }
 
-
+  @function multiplica-pela-fonte ($multiplicador){
+    @return round($multiplicador * $tamanho-da-fonte-padrao);
+  }
