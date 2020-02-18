@@ -1,5 +1,21 @@
-.sprite-sprite {
-  background-image: url('/imagens/sprite-sed99d15b73.png');
+.sprite-sprite, .sprite-icone-check, .sprite-icone-x {
+  background-image: url('../imagens/sprite-s8ca5edb2ee.png');
+  background-repeat: no-repeat;
+}
+
+.plataformas-sprite, .plataformas-logo-android, .plataformas-logo-apple, .plataformas-logo-blackberry, .plataformas-logo-windows {
+  background-image: url('../imagens/plataformas-s27d043805f.png');
+  background-repeat: no-repeat;
+}
+
+.destaque button, .plano button, .contato button {
+  -webkit-box-shadow: 0.2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  box-shadow: 0.2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+}
+
+.plataformas li, .social li a {
+  text-indent: -9999px;
+  overflow: hidden;
   background-repeat: no-repeat;
 }
 
@@ -401,17 +417,6 @@ th {
   padding: 0;
 }
 
-.destaque button, .plano button, .contato button {
-  -webkit-box-shadow: 0.2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  box-shadow: 0.2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-}
-
-.plataformas li, .social li a {
-  text-indent: -9999px;
-  overflow: hidden;
-  background-repeat: no-repeat;
-}
-
 /** Geral **/
 body {
   font-family: "Roboto Slab", serif;
@@ -573,6 +578,22 @@ header .container {
   margin-bottom: 3em;
 }
 
+.plataformas-logo-android {
+  background-position: 0 0;
+}
+
+.plataformas-logo-apple {
+  background-position: 0 -70px;
+}
+
+.plataformas-logo-blackberry {
+  background-position: 0 -141px;
+}
+
+.plataformas-logo-windows {
+  background-position: 0 -196px;
+}
+
 .plataformas {
   padding: 0;
 }
@@ -581,24 +602,7 @@ header .container {
   display: inline-block;
   width: 50px;
   height: 60px;
-  background-position: center;
   margin: 1em 1.5em 0 0;
-}
-
-.plataformas li:nth-child(1) {
-  background-image: url(../imagens/logo-apple.png);
-}
-
-.plataformas li:nth-child(2) {
-  background-image: url(../imagens/logo-android.png);
-}
-
-.plataformas li:nth-child(3) {
-  background-image: url(../imagens/logo-windows.png);
-}
-
-.plataformas li:nth-child(4) {
-  background-image: url(../imagens/logo-blackberry.png);
 }
 
 /** Planos **/
@@ -667,19 +671,17 @@ header .container {
   margin-left: 2em;
 }
 
-.icone-check,
-.icone-x {
-  background: url(../imagens/sprite.png) no-repeat;
+.sprite-icone-check {
+  background-position: 0 0;
+}
+
+.sprite-icone-x {
+  background-position: 0 -23px;
+}
+
+.sprite-icone-check, .sprite-icone-x {
   width: 18px;
   height: 18px;
-}
-
-.icone-check {
-  background-position: -5px -5px;
-}
-
-.icone-x {
-  background-position: -33px -5px;
 }
 
 /** Blog **/

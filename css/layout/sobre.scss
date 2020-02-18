@@ -22,6 +22,7 @@
     margin-bottom: 3em;
   }
   
+  @include all-plataformas-sprites;
   .plataformas {
     padding: 0;
   }
@@ -31,22 +32,8 @@
     width: 50px;
     height: 60px;
     @extend %image-replacement;
-    background-position: center;
     margin: 1em 1.5em 0 0;
   }
   
-  .plataformas li:nth-child(1) {
-    background-image: url(../imagens/logo-apple.png);
-  }
   
-  .plataformas li:nth-child(2) {
-    background-image: url(../imagens/logo-android.png);
-  }
-  
-  .plataformas li:nth-child(3) {
-    background-image: url(../imagens/logo-windows.png);
-  }
-  
-  .plataformas li:nth-child(4) {
-    background-image: url(../imagens/logo-blackberry.png);
-  }
+
